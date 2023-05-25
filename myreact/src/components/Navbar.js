@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
+import logo from '../components/imgs/logo2.png'
 import './Navbar.css';
 function Navbar() {
     const [navbar, setnavbar] = useState(false)
@@ -9,7 +10,7 @@ function Navbar() {
                 <div className="container paddingSm">
                     <nav>
                         <ul>
-                            <h2 className='headi'>NewsViews</h2>
+                            <li style={{width:"90px"}}><img src={logo} alt='logo'/></li>                     
                             <li ><Link to='/home'>Home</Link></li>
                             <li ><Link to='/business'>Business</Link></li>
                             <li ><Link to='/entertainment'>Entertainment</Link></li>

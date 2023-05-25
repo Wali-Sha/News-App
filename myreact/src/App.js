@@ -10,6 +10,7 @@ function App() {
       <div>
         <Navbar />
         <Routes>
+        <Route exact path='' element={<Card />} />
           <Route exact path='/home' element={<Card />} />
           <Route exact path='/business' element={<Card cat="business" />} />
           <Route exact path='/entertainment' element={<Card cat="Entertainment" />} />
