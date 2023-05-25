@@ -1,7 +1,6 @@
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
-// import HomePages from './components/Home/HomePages';
 import Search from './components/Search';
 import Card from './components/Card';
 function App() {

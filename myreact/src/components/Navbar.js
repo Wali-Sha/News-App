@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import logo from '../components/imgs/logo2.png'
 import './Navbar.css';
 function Navbar() {
-    const [navbar, setnavbar] = useState(false)
     return (
         <>
             <header>
